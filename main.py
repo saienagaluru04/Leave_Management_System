@@ -91,7 +91,7 @@ emp.add_leave_type(unpaid_leave)
 
 # Try applying for different leaves
 emp.apply_leave(1, 5)   # Sick leave - should be approved
-emp.apply_leave(2, 5)   # Casual leave - should be rejected
+emp.apply_leave(2, 6)   # Casual leave - should be rejected
 emp.apply_leave(3, 20)  # Unpaid leave - should be approved
 # emp.apply_leave(1,10)
 
